@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Kaseya Live Connect
+Exec=/{Enter script path here}/KaseyaLiveConnect.sh %u
+Type=Application
+Terminal=false
+MimeType=x-scheme-handler/liveconnect;
+Categories=Network;

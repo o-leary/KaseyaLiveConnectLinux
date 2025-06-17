@@ -6,7 +6,7 @@ Run Kaseya Live Connect on Linux. Tested on Ubuntu Cinnamon.
 
 ## Steps:
 1. Install the Live Connect exe using Steam as a Non-Steam Game and with compatibility to run using proton.
-2. Install a browser addon to change your user-agent for Kaseya's web interface. I used "User Agent Switcher and Manager" which is available for Chrome, Edge, Firefox, and Opera. I recommend setting 3. it to whitelist mode in the settings, then applying the user agent when viewing Kaseyas web interface.
+2. Install a browser addon to change your user-agent for Kaseya's web interface. I used "User Agent Switcher and Manager" which is available for Chrome, Edge, Firefox, and Opera. I recommend setting it to whitelist mode in the settings, then applying the user agent when viewing Kaseyas web interface.
 4. Copy the .sh file from this repo to somewhere on your machine and edit the paths, check it is executable `chmod +x KaseyaLiveConnect.sh`, and that it opens the app when run `./KaseyaLiveConnect.sh`.
 5. Copy the .desktop file from this repo to `~/.local/share/applications/` and edit it to point at the folder where you placed the .sh file.
 6. Run in terminal `xdg-mime default kaseyaliveconnect.desktop x-scheme-handler/liveconnect` to set the urls to open with the script.
